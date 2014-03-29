@@ -1,0 +1,1 @@
+cmd_/home/linux/newdrive/three/s5pc100_platform/s5pc100_platform.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.2.0-29-generic-pae/scripts/module-common.lds --build-id  -o /home/linux/newdrive/three/s5pc100_platform/s5pc100_platform.ko /home/linux/newdrive/three/s5pc100_platform/s5pc100_platform.o /home/linux/newdrive/three/s5pc100_platform/s5pc100_platform.mod.o

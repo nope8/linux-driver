@@ -1,0 +1,124 @@
+[14752.274653] unregister mydev!
+[14755.080514] char device registed
+[14755.080517] mydev register success!
+[14761.392129] mydev opened!
+[14761.392166] test write or not dev->len:0
+[14761.392167] 
+[14761.392169] receiving from user 37 bytes,cur_len:37 current string:abcde123456789ghijklmnopksdfasdfasdfg
+[14762.391125] read from kernel 12 bytes,cur_len:25,current string:89ghijklmnopksdfasdfasdfg
+[14762.391136] test write or not dev->len:25
+[14762.391137] 
+[14762.391138] receiving from user 37 bytes,cur_len:62 current string:89ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14763.390241] read from kernel 12 bytes,cur_len:50,current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14763.390252] test write or not dev->len:50
+[14763.390253] 
+[14763.390254] receiving from user 37 bytes,cur_len:87 current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14764.389348] read from kernel 12 bytes,cur_len:75,current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14764.389358] test write or not dev->len:75
+[14764.389359] 
+[14764.389360] receiving from user 37 bytes,cur_len:112 current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14765.388462] read from kernel 12 bytes,cur_len:100,current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14765.388475] test write or not dev->len:100
+[14765.388475] 
+[14765.388477] receiving from user 28 bytes,cur_len:128 current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdf
+[14766.387607] test write or not dev->len:0
+[14766.387609] 
+[14766.387611] receiving from user 37 bytes,cur_len:37 current string:abcde123456789ghijklmnopksdfasdfasdfg
+[14767.386705] read from kernel 12 bytes,cur_len:25,current string:89ghijklmnopksdfasdfasdfg
+[14767.386716] test write or not dev->len:25
+[14767.386717] 
+[14767.386718] receiving from user 37 bytes,cur_len:62 current string:89ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14768.385804] read from kernel 12 bytes,cur_len:50,current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14768.385815] test write or not dev->len:50
+[14768.385816] 
+[14768.385817] receiving from user 37 bytes,cur_len:87 current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14769.384917] read from kernel 12 bytes,cur_len:75,current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14769.384927] test write or not dev->len:75
+[14769.384928] 
+[14769.384930] receiving from user 37 bytes,cur_len:112 current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14770.131260] mydev closed!
+[14875.425392] mydev opened!
+[14875.425431] read from kernel 12 bytes,cur_len:100,current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14875.425438] test write or not dev->len:100
+[14875.425438] 
+[14875.425440] receiving from user 28 bytes,cur_len:128 current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdf
+[14876.424539] test write or not dev->len:0
+[14876.424541] 
+[14876.424543] receiving from user 37 bytes,cur_len:37 current string:abcde123456789ghijklmnopksdfasdfasdfg
+[14877.423676] read from kernel 12 bytes,cur_len:25,current string:89ghijklmnopksdfasdfasdfg
+[14877.423687] test write or not dev->len:25
+[14877.423688] 
+[14877.423689] receiving from user 37 bytes,cur_len:62 current string:89ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14878.422789] read from kernel 12 bytes,cur_len:50,current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14878.422801] test write or not dev->len:50
+[14878.422801] 
+[14878.422803] receiving from user 37 bytes,cur_len:87 current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14879.421905] read from kernel 12 bytes,cur_len:75,current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14879.421916] test write or not dev->len:75
+[14879.421917] 
+[14879.421918] receiving from user 37 bytes,cur_len:112 current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14880.421002] read from kernel 12 bytes,cur_len:100,current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14880.421014] test write or not dev->len:100
+[14880.421014] 
+[14880.421016] receiving from user 28 bytes,cur_len:128 current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdf
+[14881.420098] test write or not dev->len:0
+[14881.420100] 
+[14881.420103] receiving from user 37 bytes,cur_len:37 current string:abcde123456789ghijklmnopksdfasdfasdfg
+[14882.418371] read from kernel 12 bytes,cur_len:25,current string:89ghijklmnopksdfasdfasdfg
+[14882.418382] test write or not dev->len:25
+[14882.418382] 
+[14882.418384] receiving from user 37 bytes,cur_len:62 current string:89ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14883.417378] read from kernel 12 bytes,cur_len:50,current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14883.417390] test write or not dev->len:50
+[14883.417391] 
+[14883.417392] receiving from user 37 bytes,cur_len:87 current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14884.416769] read from kernel 12 bytes,cur_len:75,current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14884.416795] test write or not dev->len:75
+[14884.416796] 
+[14884.416797] receiving from user 37 bytes,cur_len:112 current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14885.415615] read from kernel 12 bytes,cur_len:100,current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14885.415627] test write or not dev->len:100
+[14885.415627] 
+[14885.415629] receiving from user 28 bytes,cur_len:128 current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdf
+[14886.414700] test write or not dev->len:0
+[14886.414702] 
+[14886.414704] receiving from user 37 bytes,cur_len:37 current string:abcde123456789ghijklmnopksdfasdfasdfg
+[14887.413834] read from kernel 12 bytes,cur_len:25,current string:89ghijklmnopksdfasdfasdfg
+[14887.413845] test write or not dev->len:25
+[14887.413845] 
+[14887.413847] receiving from user 37 bytes,cur_len:62 current string:89ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14888.412951] read from kernel 12 bytes,cur_len:50,current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14888.412962] test write or not dev->len:50
+[14888.412963] 
+[14888.412964] receiving from user 37 bytes,cur_len:87 current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14889.412060] read from kernel 12 bytes,cur_len:75,current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14889.412072] test write or not dev->len:75
+[14889.412072] 
+[14889.412074] receiving from user 37 bytes,cur_len:112 current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14890.411169] read from kernel 12 bytes,cur_len:100,current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14890.411179] test write or not dev->len:100
+[14890.411180] 
+[14890.411182] receiving from user 28 bytes,cur_len:128 current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdf
+[14891.410269] test write or not dev->len:0
+[14891.410270] 
+[14891.410273] receiving from user 37 bytes,cur_len:37 current string:abcde123456789ghijklmnopksdfasdfasdfg
+[14892.409402] read from kernel 12 bytes,cur_len:25,current string:89ghijklmnopksdfasdfasdfg
+[14892.409422] test write or not dev->len:25
+[14892.409423] 
+[14892.409424] receiving from user 37 bytes,cur_len:62 current string:89ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14893.408511] read from kernel 12 bytes,cur_len:50,current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14893.408522] test write or not dev->len:50
+[14893.408522] 
+[14893.408524] receiving from user 37 bytes,cur_len:87 current string:ksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14894.407641] read from kernel 12 bytes,cur_len:75,current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14894.407652] test write or not dev->len:75
+[14894.407653] 
+[14894.407654] receiving from user 37 bytes,cur_len:112 current string:gabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14895.406737] read from kernel 12 bytes,cur_len:100,current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfg
+[14895.406747] test write or not dev->len:100
+[14895.406748] 
+[14895.406750] receiving from user 28 bytes,cur_len:128 current string:789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdfasdfasdfgabcde123456789ghijklmnopksdf
+[14896.405830] test write or not dev->len:0
+[14896.405831] 
+[14896.405834] receiving from user 37 bytes,cur_len:37 current string:abcde123456789ghijklmnopksdfasdfasdfg
+[14896.672632] mydev closed!

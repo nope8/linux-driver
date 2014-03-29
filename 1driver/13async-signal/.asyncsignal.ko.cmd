@@ -1,0 +1,1 @@
+cmd_/home/tom/workspace/drivers/1driver/13async-signal/asyncsignal.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/tom/fs2416/linux-2.6.39/scripts/module-common.lds --build-id  -o /home/tom/workspace/drivers/1driver/13async-signal/asyncsignal.ko /home/tom/workspace/drivers/1driver/13async-signal/asyncsignal.o /home/tom/workspace/drivers/1driver/13async-signal/asyncsignal.mod.o

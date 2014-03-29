@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KERNELDIR	Makefile	/^KERNELDIR ?= \/lib\/modules\/$(shell uname -r)\/build  $/;"	m
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+__this_module	char-dev.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	char-dev.mod.c	/^__used$/;"	v	file:
+__used	char-dev.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+cdev	char-dev.c	/^struct cdev * cdev;$/;"	v	typeref:struct:cdev
+char_reg_cdev	char-dev.c	/^static void char_reg_cdev(void)$/;"	f	file:
+count	char-dev.c	/^int count = 1;$/;"	v
+data	char-dev.c	/^char data[128] = "char_read: the message for reading!!!";$/;"	v
+dev_open	char-dev.c	/^static int dev_open(struct inode *inode, struct file *file){$/;"	f	file:
+dev_read	char-dev.c	/^static int dev_read(struct file *fp, char __user *buf, size_t count, loff_t *offset)$/;"	f	file:
+dev_release	char-dev.c	/^static int dev_release(struct inode *inode, struct file *file){$/;"	f	file:
+dev_write	char-dev.c	/^static int dev_write(struct file *fp, const char __user *buf, size_t count, loff_t *offset)$/;"	f	file:
+hello_cleanup	char-dev.c	/^module_exit (hello_cleanup);$/;"	v
+hello_cleanup	char-dev.c	/^static void __exit hello_cleanup(void)$/;"	f	file:
+hello_init	char-dev.c	/^module_init (hello_init);$/;"	v
+hello_init	char-dev.c	/^static int  __init hello_init(void)$/;"	f	file:
+main	test.c	/^int main()$/;"	f
+major	char-dev.c	/^int major=250,minor=0;$/;"	v
+minor	char-dev.c	/^int major=250,minor=0;$/;"	v
+myfops	char-dev.c	/^struct file_operations myfops = {$/;"	v	typeref:struct:file_operations
+obj-m	Makefile	/^    obj-m := char-dev.o$/;"	m

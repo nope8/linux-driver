@@ -1,0 +1,3 @@
+insmod /dev/pwm
+mknod /dev/pwm c 250 0
+chmod 777 /dev/pwm
