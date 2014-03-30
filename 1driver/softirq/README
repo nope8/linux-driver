@@ -1,0 +1,9 @@
+This is a test sample of softirq.
+when you insmod the module, it will register an shared interrupt with eth0;
+when there is data tranporting, system will print information with jiffier.
+test method:
+	1. cd ./softirq
+	2. make 
+	3. sudo insmod softirq.ko
+	4. dmesg 	--check the result.
+
