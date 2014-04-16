@@ -54,17 +54,18 @@ struct mypwm{
 
 static void pwm_init(void)
 {
+	/* set pin to PWMTOUT1 mode*/
 	writel((readl(gpdcon) & (~0xf<<4)) | (0x2<<4), gpdcon);
 	/*设置预分频值*/
-	writel(readl(timer_base+S5PC100_TCFG0) | 0xff, timer_base+S5PC100_TCFG0);
+	writel(readl(timer_base+S5PC100_TCFG0) | 0xff, timer_base+S5PC100_TCFG0);	
 	/*设置分频值*/
 	writel((readl(timer_base+S5PC100_TCFG1) & ~(0xf<<4)) | 0x1<<4, timer_base+S5PC100_TCFG1);
 
-	writel(200,timer_base+S5PC100_TCNTB1);
-	writel(100,timer_base+S5PC100_TCMTB1);
+	/*设置占空比*/
+	writel(200,timer_base+S5PC100_TCNTB1);		//TCNTB：timer count buffer register   定时器计数寄存器
+	writel(100,timer_base+S5PC100_TCMTB1);		//TCMPB: timer compare buffer register 定时器比较寄存器
 	/*使能TOUT_1*/
-	writel((readl(timer_base+S5PC100_TCON) & ~(0xf<<8)) | (0x2<<8), timer_base+S5PC100_TCON);
-
+	writel((readl(timer_base+S5PC100_TCON) & ~(0xf<<8)) | (0x2<<8), timer_base+S5PC100_TCON); //TCON: time control register 定时器控制寄存器
 }
 
 static void pwm_on(void)
